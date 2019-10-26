@@ -1,0 +1,18 @@
+{
+  "name": "declaration",
+  "plural": "declarations",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "main": {
+      "type": "declaration_main"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
