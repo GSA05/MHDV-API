@@ -12,5 +12,29 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "declaration": {
+    "dataSource": null,
+    "public": true
+  },
+  "declaration_main": {
+    "dataSource": null,
+    "public": false
+  },
+  "declaration_main_person": {
+    "dataSource": null,
+    "public": true
+  },
+  "declaration_main_office": {
+    "dataSource": null,
+    "public": true
+  },
+  "declaration_main_office_region": {
+    "dataSource": null,
+    "public": true
+  },
+  "declaration_main_office_type": {
+    "dataSource": null,
+    "public": true
   }
 }

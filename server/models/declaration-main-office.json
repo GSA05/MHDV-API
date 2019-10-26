@@ -1,0 +1,31 @@
+{
+  "name": "declaration_main_office",
+  "plural": "declaration_main_offices",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "region": {
+      "type": "declaration_main_office_region"
+    },
+    "type": {
+      "type": "declaration_main_office_type"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

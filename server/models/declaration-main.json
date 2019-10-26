@@ -1,0 +1,24 @@
+{
+  "name": "declaration_main",
+  "plural": "declaration_mains",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "main": {
+      "type": "declaration_main_person"
+    },
+    "year": {
+      "type": "number"
+    },
+    "office": {
+      "type": "declaration_main_office"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
