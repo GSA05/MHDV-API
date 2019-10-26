@@ -36,5 +36,13 @@
   "declaration_main_office_type": {
     "dataSource": null,
     "public": true
+  },
+  "declaration_main_party": {
+    "dataSource": null,
+    "public": true
+  },
+  "documentType": {
+    "dataSource": null,
+    "public": true
   }
 }

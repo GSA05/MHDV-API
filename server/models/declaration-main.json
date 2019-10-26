@@ -10,11 +10,17 @@
     "main": {
       "type": "declaration_main_person"
     },
+    "office": {
+      "type": "declaration_main_office"
+    },
+    "party": {
+      "type": "declaration_main_party"
+    },
     "year": {
       "type": "number"
     },
-    "office": {
-      "type": "declaration_main_office"
+    "document_type": {
+      "type": "declaration_main_documentType"
     }
   },
   "validations": [],
